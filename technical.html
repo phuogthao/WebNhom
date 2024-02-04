@@ -53,6 +53,12 @@
             <li><a class="nav-link scrollto" href="index.html">Home</a></li>
             <li><a class="nav-link scrollto " href="about.html">About</a></li>
             <li><a class="nav-link scrollto" href="groupDiary.html">Group diary</a></li>
+            <li><a class="nav-link scrollto active" href="technical.html">Technical</a></li>
+            <li><a class="nav-link scrollto" href="styleGuide.html">Style Guide</a></li>
+            <li><a class="nav-link scrollto" href="results.html">Results</a></li>
+            <li><a class="nav-link scrollto" href="project.html">Project</a></li>
+            <li><a class="nav-link scrollto " href="contact.html">Contact</a></li>
+            <li><a class="getstarted scrollto" href="file:///C:/Users/HP/Desktop/nhom11_webNhaHang/nhom11-giaotiepnguoimay-master/nhom11-giaotiepnguoimay-master/index.html" target="_blank">Project</a></li>
         </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -71,6 +77,100 @@
           <div class="section-title" data-aos="fade-right">
             <h2>Technical</h2>
           </div>
+        </div>
+        
+        <div class="col-lg-8">
+         <h3>Hướng dẫn cách sử dụng Firebase</h3>
+          
+          
+            <h4>1. Firebase là gì?</h4>
+            
+            <p><strong> Khái niệm:</strong> Firebase là một dịch vụ cơ sở dữ liệu thời gian thực được cung cấp bởi Google và hoạt động trên nền tảng đám mây nhằm hỗ trợ việc tạo ra các web application, mobile application với chất lượng cao.</p>
+            <p>Với việc sử dụng Firebase, developer có thể tập trung vào việc phát triển application mà không cần lo về việc sản phẩm của mình sẽ hoạt động và được quản lý thể nào ở phía Backend.</p>
+            <strong>Ưu điểm:</strong>
+            <ul>
+              <li>
+                Tạo tài khoản và sử dụng dễ dàng
+              </li>
+              <li>Tốc độ phát triển nhanh</li>
+              <li>Firebase không có máy chủ</li>
+              <li>Tập trung vào phát triển giao diện người dùng</li>
+              <li>Tạo lưu lượng truy cập</li>
+              <li>Theo dõi lỗi</li>
+              <li>Học máy (Machine Learning)</li>
+              <li>...</li>
+            </ul>
+            
+
+               <!-- Phần 2 -->
+            <h4>2. Deploy web lên Firebase</h4>
+            <p>
+              <strong>Bước 1:</strong> Các bạn truy cập vào trang firebase
+              <a href="https://firebase.google.com/" target="_blank"> tại đây</a>
+              <br>Ở bước này các bạn đăng nhập vào tài khoản google sau đó chọn vào <strong>"Truy cập bảng điều khiển"</strong>  or <strong>"Go to console"</strong> 
+            </p>
+            <img style="height:460px;" src="assets/img/fb1.png">
+            <p>Các bạn làm theo ảnh nhé</p>
+            <img style="height:460px;" src="assets/img/2.jpg">
+            <img style="height:460px;" src="assets/img/3.jpg">
+            <img style="height:460px;" src="assets/img/4.jpg">
+            <img style="height:460px;" src="assets/img/5.jpg">
+
+           <p>
+            <strong>Bước 2: </strong>Sau khi Create project, các bạn tiếp tục tạo tên miền <strong>.tk</strong>
+            <br>Kiểm tra xem tên miền đã tồn tại hay chưa và <strong>checkout</strong>
+            <img style="height:460px;" src="assets/img/6.jpg">
+            <p>Các bạn chọn số tháng sử dụng miền phí tên miền & Chọn <strong>continue</strong></p>
+            <img style="height:460px;" src="assets/img/7.jpg">
+            <p>Sau đó sẽ xuất hiện bảng sau:</p>
+            <img style="height:460px;" src="assets/img/8.jpg">
+            <p>Các bạn đăng nhập và nhập đầy đủ thông tin nó sẽ xuất hiện bảng tiếp theo và chọn <strong>Complete Order</strong></p>
+            <img style="height:460px;" src="assets/img/9.jpg">
+            
+            <strong>Bước 3:</strong> Các bạn dùng <a href="https://code.visualstudio.com/" target="_blank">VSCode </a> để chạy lệnh command or dùng command prompt của Window (khuyến khích dùng VSCode )
+            <br> Trước khi thực hiện thao tác dưới đây các bạn cài NodeJS trước nhé!!!!!!
+
+            <br> Dưới đây sẽ là hướng dẫn cho React trước các bạn deploy "HTML-CSS-JS" có thể bỏ qua bước này
+
+           </p>
+
+           <strong>Bước 3.1:</strong> Tạo react-app và chạy run build
+           <br>npm install -g create-react-app
+           <br>create-react-app "Ten"
+           <br>Các bạn nhớ dùng lệnh cd "Ten" để chuyển vị trí thư mục nhé rồi mới chạy được lệnh<strong> npm run build</strong>
+           <img style="height:460px;" src="assets/img/10.jpg">
+           <strong>Bước 3.2:</strong> Các bạn làm theo để tạo firebase (áp dụng cho cả "HTML-CSS-JS" luôn nhé)
+           <br>Các bạn tiến hành đăng nhập vào tài khoản Google đã tạo ở <strong>bước 1</strong> nhé
+           <img style="height:460px;" src="assets/img/11.jpg">
+           <br>Lệnh <strong>firebase init</strong>
+           <br>Các bạn sử dụng <strong>PageUp & PageDown</strong> để di chuyển, nhấn <strong>Space</strong> để khóa & <strong>Enter</strong> để chọn
+           <img style="height:460px;" src="assets/img/12.jpg">
+           <br>Ở phần <strong>Select a default Firebase project for this directory</strong> các bạn chọn vào tên project đã tạo ở <strong>bước 1</strong>
+           <img style="height:460px;" src="assets/img/13.jpg">
+           <br> Ở dòng <strong>What do you want to use as your public directory?</strong>
+           <br>Các bạn đang thao tác với "HTML-CSS-JS" thì tạo folder public sau đó chuyển hết file vào trong public và Enter
+           <br>Còn các bạn thao tác với <strong>ReactJS</strong> thao tác như hình
+           <img style="height:460px;" src="assets/img/14.jpg">
+           <br>Sau khi các bạn chạy lệnh <strong>firebase deploy</strong> nó đã được cập nhập lên firebase
+
+            <p>
+           <strong>Bước 4:</strong> Các bạn truy cập vào trang <a href="https://my.freenom.com/clientarea.php" target="_blank">freenom </a> để liên kết firebase với tên miền .tk
+           <br>Sau khi các bạn đăng nhập sẽ xuất hiện bảng dưới đây. Các bạn chọn vào <strong>"My domains"</strong>
+           <img style="height:460px;" src="assets/img/15.jpg">
+           <br>Chọn vào <strong>Manage Domain</strong>
+           <img style="height:460px;" src="assets/img/16.jpg">
+           <br> Sau đó các bạn đăng nhập vào firebase và ở giao diện các bạn chọn vào phần <strong>hosting </strong>chọn <strong>Add custom domain</strong>
+           <img style="height:460px;" src="assets/img/17.jpg">
+           <img style="height:460px;" src="assets/img/18.jpg">
+           <img style="height:460px;" src="assets/img/19.jpg">
+           <br>Sau khi làm xong bước <strong>Save Changes</strong> các bạn đợi khoảng 5-10p để nó tạo liên kết
+           <img style="height:460px;" src="assets/img/20.jpg">
+           <br>Sau khi đợi 5-10p các bạn f5 lại trang và chuyển qua tab firebase chọn <strong>Verify </strong> sẽ xuất hiện tab sau
+           <img style="height:460px;" src="assets/img/21.jpg">
+           <br>Sau khi bạn nhấn finish thì bạn đã hoàn thành các bạn có thể truy cập được web bình thường 
+           <h5>Nếu các bạn làm đến đây mà không được thì các bạn hãy liên hệ với nhóm mình qua email.</h5>
+
+            </p>
         </div>
       </div>
 
